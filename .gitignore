@@ -1,0 +1,29 @@
+# Build output
+tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Air live reload
+build-errors.log
+
+# Go test & coverage
+*.test
+*.out
+coverage.html
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
