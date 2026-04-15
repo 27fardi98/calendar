@@ -120,7 +120,7 @@ func main() {
 	app.Get("/calendar", calendarHandler)
 	app.Get("/health", healthHandler)
 
-	port := ":8080"
+	port := ":8001"
 	log.Printf("Forex Calendar API running on http://localhost%s", port)
 	log.Printf("Endpoints:")
 	log.Printf("  GET /calendar            → USD High Impact (default)")
